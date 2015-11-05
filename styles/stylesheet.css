@@ -1,46 +1,45 @@
-footer ul li {
-    clear:both;
-    float: left;
-    
+body {
+    background-color: lightgrey;
 }
-nav {
+#nav {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
   width: 100%;
-  height: 33px;
+  text-align: center;
 }
-#nav_bar_center {
-width: 900px;
-margin-left:auto;
-margin-right:auto;
-}
-
+          #nav ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0;
+            width: 100%;
+          }
+          #nav li {
+            margin: 0px;
+            display:inline-block;
+          }
+          #nav li a {
+              background-color: rebeccapurple;
+              color:white;
+              float: left;
+              padding: 1rem;
+              list-style: none;
+              border: 1px black solid;
+          }
+          #nav li a:hover {
+            color: white;
+            background-color: hotpink;
+          }
 #floatermid {
   width: 70%;
   float: right;
   
 }
 p { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
-
-header nav ul li {
-    background-color: rebeccapurple;
-    color:white;
-    float: left;
-    padding: 1rem;
-    list-style: none;
-    border: 1px black solid;
-}
-header ul {
-width: 900px; 
-margin: 0 auto; 
-}
-aside div ul li {
-    clear: both;
-    color:white;
-}
 h1 {
   color:rebeccapurple;
   text-align: center;
 }
-
 a {
     display: block;
     width: 60px;
@@ -49,6 +48,10 @@ a {
 a:link {
   text-decoration: none;
 }
+aside div ul li {
+    clear: both;
+    color:white;
+}
 #aside {
   float: left;
   width: 20%;
@@ -56,3 +59,49 @@ a:link {
   margin: 1rem 0 2rem 0;
   background-color: mediumpurple;
 }
+          #aside ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0;
+            width: 100%;
+          }
+          #aside li {
+            margin: 0px;
+          }
+          #aside li a {
+              background-color: mediumpurple;
+              color:white;
+              float: left;
+              padding: 1rem;
+              list-style: none;
+              border: 1px black solid;
+          }
+          #aside li a:hover {
+            color: white;
+            background-color: hotpink;
+          }
+footer {
+  clear: both;
+}
+#footerz {
+    position:fixed;
+    bottom: 0px;
+    width: 600px;
+    left: 25%;
+    text-align: center;
+}
+          #footerz ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0;
+            width: 100%;
+          }
+          #footerz li {
+            margin: 0px;
+            display:inline-block;
+          }
+          #footerz li a {
+              float: left;
+              padding: 1rem;
+              list-style: none;
+          }

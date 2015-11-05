@@ -1,0 +1,51 @@
+a:hover {
+    color: hotpink;
+}
+footer {
+  text-align: center;
+}
+header {
+  color:rebeccapurple;
+  text-align: center;
+}
+article {
+  text-align: center;
+}
+body {
+  background-color: lightgrey;
+}
+aside {
+text-align: center;
+}
+  p {
+    clear:both;
+  }
+.container {
+			margin-top:40px;
+			margin-left:40px;
+		}
+
+		.container ul {
+			color: #E59934;
+		}
+
+		.container ul li {
+			margin:5px;
+			padding:100px;
+			width: 130px;
+			height:70px;
+			float: left;	
+			list-style:inherit;
+			
+		}
+.myDiv
+    {
+    position:fixed;
+    bottom: 50px;
+    width: 600px;
+    left: 25%;
+    text-align: center;
+}
+    .myDiv a:hover {
+    color: hotpink;
+        }
